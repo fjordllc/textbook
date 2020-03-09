@@ -5,3 +5,9 @@ multilingual = false
 src = "src"
 title = "Rails Programmer Textbook"
 description = "Railsプログラマーになるための教科書"
+
+[build]
+build-dir = "docs"
+
+[output.html]
+git-repository-url = "https://github.com/fjordllc/textbook"
