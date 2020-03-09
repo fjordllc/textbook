@@ -1,0 +1,7 @@
+[book]
+authors = ["Masaki Komagata"]
+language = "ja"
+multilingual = false
+src = "src"
+title = "Rails Programmer Textbook"
+description = "Railsプログラマーになるための教科書"
