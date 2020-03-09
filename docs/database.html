@@ -81,7 +81,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div id="sidebar-scrollbox" class="sidebar-scrollbox">
-                <ol class="chapter"><li class="expanded "><a href="ruby.html"><strong aria-hidden="true">1.</strong> Ruby</a></li><li class="expanded "><a href="linux.html"><strong aria-hidden="true">2.</strong> Linux</a></li><li class="expanded "><a href="nginx.html"><strong aria-hidden="true">3.</strong> Nginx</a></li><li class="expanded "><a href="git-github.html"><strong aria-hidden="true">4.</strong> Git, GitHub</a></li><li class="expanded "><a href="database.html" class="active"><strong aria-hidden="true">5.</strong> データベース</a></li><li><ol class="section"><li class="expanded "><a href="database/sql.html"><strong aria-hidden="true">5.1.</strong> SQL</a></li><li class="expanded "><a href="database/postgresql.html"><strong aria-hidden="true">5.2.</strong> PostgreSQL</a></li><li class="expanded "><a href="database/database-design.html"><strong aria-hidden="true">5.3.</strong> データベース設計</a></li></ol></li><li class="expanded "><a href="rails.html"><strong aria-hidden="true">6.</strong> Ruby on Rails</a></li><li class="expanded "><a href="test.html"><strong aria-hidden="true">7.</strong> テスト</a></li><li class="expanded "><a href="javascript.html"><strong aria-hidden="true">8.</strong> JavaScript</a></li></ol>
+                <ol class="chapter"><li class="expanded "><a href="ruby.html"><strong aria-hidden="true">1.</strong> Ruby</a></li><li class="expanded "><a href="linux.html"><strong aria-hidden="true">2.</strong> Linux</a></li><li><ol class="section"><li class="expanded "><a href="linux/command.html"><strong aria-hidden="true">2.1.</strong> Linuxコマンド</a></li></ol></li><li class="expanded "><a href="nginx.html"><strong aria-hidden="true">3.</strong> Nginx</a></li><li class="expanded "><a href="git-github.html"><strong aria-hidden="true">4.</strong> Git, GitHub</a></li><li class="expanded "><a href="database.html" class="active"><strong aria-hidden="true">5.</strong> データベース</a></li><li><ol class="section"><li class="expanded "><a href="database/sql.html"><strong aria-hidden="true">5.1.</strong> SQL</a></li><li class="expanded "><a href="database/postgresql.html"><strong aria-hidden="true">5.2.</strong> PostgreSQL</a></li><li class="expanded "><a href="database/database-design.html"><strong aria-hidden="true">5.3.</strong> データベース設計</a></li></ol></li><li class="expanded "><a href="rails.html"><strong aria-hidden="true">6.</strong> Ruby on Rails</a></li><li class="expanded "><a href="test.html"><strong aria-hidden="true">7.</strong> テスト</a></li><li class="expanded "><a href="javascript.html"><strong aria-hidden="true">8.</strong> JavaScript</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -191,21 +191,6 @@
 
         </div>
 
-        
-        <!-- Livereload script (if served using the cli tool) -->
-        <script type="text/javascript">
-            var socket = new WebSocket("ws://localhost:3001");
-            socket.onmessage = function (event) {
-                if (event.data === "reload") {
-                    socket.close();
-                    location.reload(true); // force reload from server (not from cache)
-                }
-            };
-
-            window.onbeforeunload = function() {
-                socket.close();
-            }
-        </script>
         
 
         

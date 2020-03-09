@@ -2,6 +2,7 @@
 
 - [Ruby](./ruby.md)
 - [Linux](./linux.md)
+  - [Linuxコマンド](./linux/command.md)
 - [Nginx](./nginx.md)
 - [Git, GitHub](./git-github.md)
 - [データベース](./database.md)
